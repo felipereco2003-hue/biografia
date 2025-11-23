@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href= "CSS/decoracion.css">
+</head>
+<body>
+    <a href="index.php">biografia</a>
+   <form action="mysql/formulario.php" method="post" target="oculto" class="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre"required>
+        
+        <label for="correo">Correo</label>
+        <input type="email" name= "correo"required>
+       
+        <label for="mensaje" >Mensaje</label>
+        <textarea name="mensaje"required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <iframe name="oculto" id="oculto" style="display:none;"></iframe>
+    <p id="mensaje"></p>
+
+    <script>
+        document.getElementById("oculto").addEventListener("load", function() {
+            document.getElementById("mensaje").innerHTML = "Enviado correctamente";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body{
+background-color: skyblue;
+color: black;
+font-family: cursive;
+margin: 0;
+padding: 0;
+
+}
+
+.foto-perfil{
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.h1,h2{
+    color: black;
+    text-align: center;
+}
+
+
+.header{ 
+    padding: 20px 0;
+    background:#cfe2ff ; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.perfil{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   padding: 30px;
+   max-width: 900px;
+   margin: auto;
+}
+
+.info-personal{
+    font-size: 20px;
+    
+}
+
+.cuadro{
+    background: write;
+    border-left: 8px solid #004aad ;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    
+}
+
+.cuadro p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hobbies ul{
+    list-style: square;
+    margin: auto;
+    padding: 0 40px;
+    font-size: 18px;
+}
+
+.formulario{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input,
+.formulario textarea{
+padding: 10px;
+font-size: 18px;
+border-radius:  6px;
+border: 1px solid #ccc;
+}
+
+.formulario button{
+    background: #004aad;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.formulario button{
+    background: #003581;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #cfe2ff;
+}
